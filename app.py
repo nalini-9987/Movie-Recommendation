@@ -4,7 +4,7 @@ import pickle
 import pandas as pd
 import requests
 
-fetch poster
+#fetch poster
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=4718c03e434fb3b233019dc4ae6cf040&language=en-US".format(movie_id)
     data = requests.get(url)
